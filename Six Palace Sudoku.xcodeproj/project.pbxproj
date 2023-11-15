@@ -16,6 +16,8 @@
 		B441AEE72B03E2E1002177BE /* Six_Palace_SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441AEE62B03E2E1002177BE /* Six_Palace_SudokuTests.swift */; };
 		B441AEF12B03E2E1002177BE /* Six_Palace_SudokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441AEF02B03E2E1002177BE /* Six_Palace_SudokuUITests.swift */; };
 		B441AEF32B03E2E1002177BE /* Six_Palace_SudokuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441AEF22B03E2E1002177BE /* Six_Palace_SudokuUITestsLaunchTests.swift */; };
+		B441AF002B03E67B002177BE /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441AEFF2B03E67B002177BE /* Global.swift */; };
+		B441AF022B0401D6002177BE /* Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441AF012B0401D6002177BE /* Sudoku.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B441AEEC2B03E2E1002177BE /* Six Palace SudokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Six Palace SudokuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B441AEF02B03E2E1002177BE /* Six_Palace_SudokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six_Palace_SudokuUITests.swift; sourceTree = "<group>"; };
 		B441AEF22B03E2E1002177BE /* Six_Palace_SudokuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six_Palace_SudokuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B441AEFF2B03E67B002177BE /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B441AF012B0401D6002177BE /* Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B441AECF2B03E2DE002177BE /* AppDelegate.swift */,
 				B441AED12B03E2DE002177BE /* SceneDelegate.swift */,
 				B441AED32B03E2DE002177BE /* ViewController.swift */,
+				B441AF012B0401D6002177BE /* Sudoku.swift */,
+				B441AEFF2B03E67B002177BE /* Global.swift */,
 				B441AED52B03E2DE002177BE /* Main.storyboard */,
 				B441AED82B03E2E1002177BE /* Assets.xcassets */,
 				B441AEDA2B03E2E1002177BE /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B441AF002B03E67B002177BE /* Global.swift in Sources */,
 				B441AED42B03E2DE002177BE /* ViewController.swift in Sources */,
 				B441AED02B03E2DE002177BE /* AppDelegate.swift in Sources */,
 				B441AED22B03E2DE002177BE /* SceneDelegate.swift in Sources */,
+				B441AF022B0401D6002177BE /* Sudoku.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,13 +450,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88XK97279C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Six Palace Sudoku/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,13 +479,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88XK97279C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Six Palace Sudoku/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
