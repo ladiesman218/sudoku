@@ -139,17 +139,15 @@ class ViewController: UIViewController {
                     borderLayer.frame = CGRect(x: label.frame.width, y: 0, width: gap, height: label.frame.height * 1.1)
                     borderLayer.backgroundColor = dividerColor.cgColor
                     
-                    // 将CALayer添加到UILabel的layer中
                     label.layer.addSublayer(borderLayer)
                 }
                 // Add divider for row
                 if i == 1 || i == 3 {
-                    // 创建一个CALayer作为边框
+					// Create a CALayer as devider.
                     let borderLayer = CALayer()
                     borderLayer.frame = CGRect(x: 0, y: label.frame.height, width: label.frame.width * 1.1, height: gap)
                     borderLayer.backgroundColor = dividerColor.cgColor
                     
-                    // 将CALayer添加到UILabel的layer中
                     label.layer.addSublayer(borderLayer)
                 }
                 
